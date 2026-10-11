@@ -19,7 +19,7 @@ These are public-sharing recommendations, not blockers to the authorized private
 
 ## Checks completed before private upload
 
-Gitleaks source, staged-blob and new-history scans; original-history scan (original history never pushed); targeted identifier/network/path/config inspection; exclusion of credentials, authentication state, runtime databases/logs, binary model assets, notebooks, screenshots and office documents; original checkpoint hashes and Git recovery; appropriate isolated tests/smokes and syntax checks. Font/Chart.js notices are retained. Source ownership explicitly confirmed. Automated scanners are supplemental and do not establish every third-party distribution right.
+Gitleaks source, staged-blob and new-history scans; original-history scan (original history never pushed); targeted identifier/network/path/config inspection; exclusion of credentials, authentication state, runtime databases/logs, binary model assets, notebooks, unreviewed screenshots and office documents; original checkpoint hashes and Git recovery; appropriate isolated tests/smokes and syntax checks. Font/Chart.js notices are retained. Source ownership explicitly confirmed. Automated scanners are supplemental and do not establish every third-party distribution right.
 
 ## Approval scope
 
