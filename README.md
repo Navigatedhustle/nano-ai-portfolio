@@ -1,6 +1,6 @@
 # Nano AI Portfolio
 
-Carlos Sanchez's collection of local AI applications, evidence-oriented demos and research tools. The projects were inspected on the original NVIDIA GB10 ARM64 workstation and prepared as independent sanitized source snapshots. All repositories start private; public sharing requires a separate review and explicit owner approval.
+Carlos Sanchez's collection of local AI applications, evidence-oriented demos and research tools. The projects were inspected on the original NVIDIA GB10 ARM64 workstation and prepared as independent sanitized source snapshots. The owner approved public sharing of all eleven sanitized portfolio repositories after private publication and security review.
 
 | Project | Value | Verified maturity |
 | --- | --- | --- |
@@ -23,8 +23,8 @@ Tests use synthetic data. Source-only checks and mocked integrations are labeled
 
 ## Sharing and licensing
 
-See [public-sharing proposal](docs/PUBLIC-SHARING.md). Existing source/dependency notices remain applicable. No new source license is applied automatically. Model licenses and source ownership are separate; third-party weights, unknown media and original operation records are omitted. Working runtime projects and historical experiments remain local.
+See [public-sharing record](docs/PUBLIC-SHARING.md). Existing source/dependency notices remain applicable. No new source license is applied automatically. Model licenses and source ownership are separate; third-party weights, unknown media and original operation records are omitted. Working runtime projects and historical experiments remain local.
 
 ## Updating
 
-Work in the runtime project's normal development location, then copy only reviewed source changes into its publication repository. Stage explicit files, run relevant tests, run `python3 scripts/security_check.py --history`, and use `bash scripts/push-private.sh`. Never import original histories or synchronize private data. Details are in each project's SECURITY.md. The local recovery/organization guide is intentionally outside Git.
+Work in the runtime project's normal development location, then copy only reviewed source changes into its publication repository. Stage explicit files, run relevant tests, run `python3 scripts/security_check.py --history`, and use `bash scripts/push-reviewed.sh`. Never import original histories or synchronize private data. Details are in each project's SECURITY.md. The local recovery/organization guide is intentionally outside Git.
